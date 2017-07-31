@@ -1,0 +1,79 @@
+
+/* ==========================================================================
+Base styles:
+========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+  filter: grayscale(85%);
+}
+
+img:hover{
+  filter: none;
+  opacity: 1;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E3E0D1;
+  background-image: url('../images/hand.jpg');
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+h1{
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+
+article{
+  text-align: right;
+  color: #25221E;
+}
+.search{
+  color: inherit;
+  text-align: left;
+}
+.menu{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  display: none;
+  text-align: right;
+}
+
+.burger{
+  text-align: right;
+  color: inherit;
+}
+
+.burger:hover{
+  color: red;
+}
+#favicon{
+  color: inherit;
+  text-align: center;
+}
+
+#favicon:hover{
+  color: red;
+}
+
+a:hover{
+  color: red;
+}
